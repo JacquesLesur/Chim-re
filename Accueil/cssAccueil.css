@@ -1,0 +1,51 @@
+body{
+    background-image: url("../Images/fond.jpg");
+    font-family: verdana;
+    background-repeat:no-repeat;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    display: block;
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+
+.liste{
+   background-color: rgb(60,60,60) ;
+   border-radius: 8px;
+   opacity: 0.8;
+   width: 350px;
+   display: inline-block;
+   margin-top: 50px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+ul{
+    background-color: rgb(209,201,182);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: 1px solid rgb(60,60,60);
+    margin-bottom: 0;
+}
+
+.titreListe{
+    text-align: center;
+    color: white;
+}

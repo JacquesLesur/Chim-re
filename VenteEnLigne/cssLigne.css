@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    background-color: rgb(254,239,216);
+}
+
+.content{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    height: 1000px;
+}
+
+header{ 
+    background-image: url('fondBandeau.jpg');
+    height: 190px;
+    box-shadow: 0px 3px 3px grey;
+}
+
+.logo{
+    margin-top: 3%;
+    margin-left:3%;
+    width: 35%;
+    height: 65%;
+}
+
+.contact{
+    float: right;
+    margin-right: 1%;
+}
+
+.contact li{
+    list-style: none;
+    text-align: right;
+   
+}
+
+.titreLI{
+    border-bottom: 2px solid rgb(217,183,156);  
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 0;
+}
+
+.titre{
+    width: 93%;
+    border-bottom: 2px solid rgb(217,183,156); 
+    margin-left: 45px;
+    margin-top: 10px;
+    text-transform : uppercase;
+}
+
+.titre:first-letter{
+    font-size: 25px;
+}
+
+.pierre{
+  position : absolute;
+  height: 30px;
+  margin-top: 11px;
+}
+
+.contenu{
+    padding: 20px;
+}
+
+.lesarticles{
+    margin-top: 40px;
+    
+}
+
+.article{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgb(217,183,156); 
+    text-align: center;
+    margin-left: 80px;
+}
+
+.lien{
+    text-decoration: none;
+    color: rgb(80,71,66);
+}
+
+.prix{
+    margin: 0;
+    color: rgb(207,194,186);
+}
+
+.parrure{
+    margin: 0;
+    color: rgb(175,171,168);
+}
+
+.enveloppe{
+    margin: auto;
+    background-color: rgb(207,194,186);
+    color: rgb(80,71,66);
+    box-shadow: 3px 3px 5px #c7c7c7;
+    font-size: 12px;
+    width: 90px;
+    height: 40px;
+}
+
+.imgEnve{
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
